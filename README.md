@@ -83,10 +83,10 @@ Special thanks to Dapunta for the reference.
 
 ### Social Media 📱
 
-*   **YouTube**: [YouTube Channel](https://www.youtube.com/) 📺
-*   **Twitter**: [Twitter Profile](https://twitter.com/) 🐦
-*   **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/) 💼
-*   **Telegram**: [Telegram Channel](https://t.me/) ✉️
+*   **YouTube**: [YouTube Channel](https://www.youtube.com/@Kaiiddo) 📺
+*   **Twitter**: [Twitter Profile](https://twitter.com/HelloKaiiddo) 🐦
+*   **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/Kaiiddo) 💼
+*   **Telegram**: [Telegram Channel](https://t.me/Kaiiddo) ✉️
 
 ## Languages Used 💻
 
