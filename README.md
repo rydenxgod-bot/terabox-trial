@@ -85,7 +85,7 @@ Special thanks to Dapunta for the reference.
 
 *   **YouTube**: [YouTube Channel](https://www.youtube.com/@Kaiiddo) 📺
 *   **Twitter**: [Twitter Profile](https://twitter.com/HelloKaiiddo) 🐦
-*   **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/Kaiiddo) 💼
+*   **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/kaiiddo) 💼
 *   **Telegram**: [Telegram Channel](https://t.me/Kaiiddo) ✉️
 
 ## Languages Used 💻
