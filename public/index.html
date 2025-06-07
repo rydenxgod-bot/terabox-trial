@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terabox Video Player</title>
+    <!-- Video.js CSS -->
+    <link href="https://vjs.zencdn.net/8.23.3/video-js.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Sans Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Google Sans', sans-serif;
+        }
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border-left-color: #09f;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-5">
+    <div class="container mx-auto">
+        <div class="search-box flex mb-5">
+            <input type="text" id="terabox_url" placeholder="Enter Terabox URL..." class="flex-1 p-2.5 text-base border rounded-l">
+            <button id="submit_button" class="bg-green-500 hover:bg-green-600 text-white p-2.5 text-base border-none rounded-r">Search</button>
+        </div>
+
+        <div id="video-container" class="video-container hidden">
+            <video id="terabox-player" class="video-js vjs-default-skin" controls preload="auto" width="640" height="360" data-setup='{}'>
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a
+                    web browser that <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                </p>
+            </video>
+        </div>
+
+        <div id="file-list" class="file-list mt-5 space-y-2.5"></div>
+    </div>
+
+    <!-- Video.js Script -->
+    <script src="https://vjs.zencdn.net/8.23.3/video.min.js"></script>
+    <!-- Your custom script -->
+    <script src="script.js"></script>
+</body>
+</html>
