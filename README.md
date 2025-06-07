@@ -19,7 +19,7 @@ This project is an open-source tool to help you access and stream files from Ter
 1.  Clone the repository:
 
     ```bash
-    git clone https://github.com/DevAryanPro/Terabox-open-source.git
+    git clone https://github.com/ProKaiiddo/terabox-open-source
     cd Terabox-open-source
     ```
 2.  Install the dependencies:
@@ -36,7 +36,7 @@ This project is an open-source tool to help you access and stream files from Ter
     python app.py
     ```
 
-    The API server will run on `http://localhost:5000`.
+    The API server will run on `http://192.168.58.5:5000`.
 
 ### Running the Watch Player (Web UI) 🌐
 
