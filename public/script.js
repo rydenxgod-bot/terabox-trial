@@ -1,4 +1,4 @@
-const apiBaseUrl = 'http://localhost:5000'; // Your Flask API endpoint
+const apiBaseUrl = 'http://192.168.58.5:5000'; // Your Flask API endpoint
 let videoPlayer;
 let currentFiles = [];
 
