@@ -1,4 +1,4 @@
-const apiBaseUrl = 'http://192.168.58.5:5000'; // Your Flask API endpoint
+const apiBaseUrl = 'https://terabox-trial-1.onrender.com'; // Your Flask API endpoint
 let videoPlayer;
 let currentFiles = [];
 
