@@ -193,7 +193,7 @@ class Test():
         timestamp = '1730453808'
         sign      = '203f3050221108f50651f5cf83aa170e397ac220'
         js_token  = '56E54FF01836EB4DA93C3F947E6773743E2AC72183407D3973EBB1403B057C61D713B8F54A06F7A0FE506CBD0CEE76376E92790188D10617CD4616A1E5EAD40441C4211D1FDDCA2D5249583F6236BC8AF521B53F73856D7C3D1834BCAAFC5A6F'
-        cookie    = 'lang=id;PANWEB=1;shareRedirectDomain=1024tera.com;csrfToken=TOoVl6BAQaYuhBzlm0W92QlF;browserid=8h4MJOzfuXycmoRRZHzv9UGQ5NMOHle6knVpvNzHVR5s9L_ptbGMKMJnb74=;TSID=RffPy1VgvTPZBI0WQiWK46H2Ufv8yYV7'
+        cookie    = 'lang=id;PANWEB=1;shareRedirectDomain=1024tera.com;csrfToken=czQZ3GkN8nh3pcmWTPlKs0eg;browserid=CRBUSuLU1map0PLzCxH5U0IAZzRRw_ImIX2n0ayzMH5N9Vz3JUmPbCkrn5I=;TSID=RffPy1VgvTPZBI0WQiWK46H2Ufv8yYV7'
 
         TL = TeraboxLink(fs_id, uk, shareid, timestamp, sign, js_token, cookie)
         TL.generate()
